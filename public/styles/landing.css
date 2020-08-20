@@ -69,9 +69,6 @@ body{
 .insta_icon, .li_icon, .fb_icon, .tw_icon{
     font-size: 3.5rem;
 }
-.li_icon:hover, .fb_icon:hover, .tw_icon:hover{
+.li_icon:hover, .fb_icon:hover, .tw_icon:hover, .insta_icon:hover{
     color: #4267B2;
-}
-.insta_icon:hover{
-    color: black;
 }
