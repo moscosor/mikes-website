@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+h1 {
+    font-size: 25;
+    text-align: center;
+}
+.flex-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: DodgerBlue;
+    height: 500px;
+    width: 900px;
+}
+.flex-container > div > img {
+    border-radius: 50%;
+    height: 300px;
+    width: 425px;
+}
+.flex-container > div > p {
+    word-wrap: break-word;
+    width: 300px;
+    font-size: 14;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
