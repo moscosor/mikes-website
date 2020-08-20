@@ -22,6 +22,7 @@ body{
     justify-content: center;
 }
 .main_image{
+    margin-top: 15px;
     position: absolute;
     z-index: -1;
     width:100%; 
