@@ -8,23 +8,69 @@ body{
 }
 .page_title{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
 }
-.image_wrapper{
+.landing{
     position: relative;
-    border: 2px solid black;
-    width: 80%;
-    height: 40%;
+    /* border: 2px solid blue; */
+    width: 95vw;
+    height: 80vh;
     margin: 0 auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .main_image{
-    margin: 0 auto;
-    display: block;
-    opacity: .8;
-}
-.title_name{
     position: absolute;
+    z-index: -1;
+    width:100%; 
+    height:100%; 
 }
-.intro{
-    position: absolute;
+.title_wrapper{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.title_wrapper > h1 {
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro_wrapper{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 25px auto;
+    width: 70%;
+    height: auto;
+}
+.intro_wrapper > p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    text-align: center;
+    z-index: 3;
+}
+.links > a {
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+}
+.insta_icon, .li_icon, .fb_icon, .tw_icon{
+    font-size: 3.5rem;
+}
+.li_icon:hover, .fb_icon:hover, .tw_icon:hover{
+    color: #4267B2;
+}
+.insta_icon:hover{
+    color: black;
 }
